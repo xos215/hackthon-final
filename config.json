@@ -1,0 +1,12 @@
+{
+  "appName": "Project Name",
+  "tagline": "One line that sells your idea.",
+  "itemName": "Entry",
+  "accent": "#2f5bea",
+  "fields": [
+    { "name": "title", "label": "Title", "type": "text", "required": true },
+    { "name": "description", "label": "Description", "type": "textarea" },
+    { "name": "category", "label": "Category", "type": "select", "options": ["General", "Urgent", "Idea"] },
+    { "name": "status", "label": "Status", "type": "select", "options": ["Open", "In progress", "Done"] }
+  ]
+}
